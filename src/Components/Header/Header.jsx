@@ -22,8 +22,8 @@ class Header extends Component {
             </Parallax>
             <Parallax
               className="custom-class"
-              offsetYMax={150}
-              offsetYMin={-150}
+              offsetYMax={-150}
+              offsetYMin={150}
               slowerScrollRate
               tag="figure"
             >
