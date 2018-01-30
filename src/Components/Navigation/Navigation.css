@@ -1,4 +1,7 @@
 .Navigation {
   max-width: 1000px;
-  margin: 0 10px;
+}
+
+.my-custom-navbar {
+  border-radius: 0px;
 }

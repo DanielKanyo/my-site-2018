@@ -13,11 +13,8 @@ class Navigation extends Component {
   render() {
     return (
       <div className="Navigation">
-        <Navbar inverse collapseOnSelect>
+        <Navbar className="my-custom-navbar">
           <Navbar.Header>
-            <Navbar.Brand>
-              <div>Daniel Kanyo</div>
-            </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
