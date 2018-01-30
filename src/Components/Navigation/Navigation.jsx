@@ -3,9 +3,8 @@ import { Nav, Navbar, NavItem } from 'react-bootstrap';
 import Icon from 'react-icons-kit';
 /** Icons */
 import { instagram } from 'react-icons-kit/entypo/instagram';
-import { facebook } from 'react-icons-kit/entypo/facebook';
+import { facebook } from 'react-icons-kit/fa/facebook';
 import { github } from 'react-icons-kit/icomoon/github';
-import { fiveHundredPX } from 'react-icons-kit/icomoon/fiveHundredPX';
 /** Style */
 import './Navigation.css';
 
@@ -13,11 +12,8 @@ class Navigation extends Component {
   render() {
     return (
       <div className="Navigation">
-        <Navbar inverse collapseOnSelect>
+        <Navbar className="my-custom-navbar">
           <Navbar.Header>
-            <Navbar.Brand>
-              <div>Daniel Kanyo</div>
-            </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
@@ -47,9 +43,6 @@ class Navigation extends Component {
               </NavItem>
               <NavItem eventKey={2} target="_blank" href="https://github.com/DanielKanyo">
                 <Icon size={18} style={{ verticalAlign: 'middle' }} icon={github} />
-              </NavItem>
-              <NavItem eventKey={2} target="_blank" href="https://500px.com/danielkanyo">
-                <Icon size={18} style={{ verticalAlign: 'middle' }} icon={fiveHundredPX} />
               </NavItem>
             </Nav>
           </Navbar.Collapse>
