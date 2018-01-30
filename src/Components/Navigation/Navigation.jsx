@@ -12,26 +12,29 @@ class Navigation extends Component {
   render() {
     return (
       <div className="Navigation">
-        <Navbar className="my-custom-navbar">
+        <Navbar className="my-custom-navbar" inverse>
           <Navbar.Header>
+            <Navbar.Brand className="navbar-brand">
+              daniel kanyo
+            </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
               <NavItem eventKey={1}>
-                About me
+                about me
               </NavItem>
               <NavItem eventKey={2}>
-                Skills
+                skills
               </NavItem>
               <NavItem eventKey={3}>
-                Opinions
+                opinions
               </NavItem>
               <NavItem eventKey={4}>
-                Hobbies
+                hobbies
               </NavItem>
               <NavItem eventKey={4}>
-                Contact
+                contact
               </NavItem>
             </Nav>
             <Nav pullRight>

@@ -4,4 +4,20 @@
 
 .my-custom-navbar {
   border-radius: 0px;
+  border: 0px;
+  margin-bottom: 0px;
+}
+
+.my-nav-item:hover {
+  color: #00aa7d;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: block;
+  }
 }

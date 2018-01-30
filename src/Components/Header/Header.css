@@ -1,0 +1,48 @@
+.Header {
+  height: 500px;
+  background-image: url("../../Images/header-img.jpg");
+  background-size: 1030px;
+  background-position: center;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+}
+
+.header-text {
+  padding-top: 100px;
+}
+
+.header-title {
+  font-weight: 300;
+  letter-spacing: 50px;
+  text-indent: 50px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.header-description {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 40px;
+  text-indent: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-text {
+    padding-top: 130px;
+  }
+
+  .header-title {
+    font-size: 16px;
+    letter-spacing: 18px;
+    text-indent: 18px;
+  }
+
+  .header-description {
+    font-size: 12px;
+    letter-spacing: 16px;
+    text-indent: 16px;
+  } 
+}

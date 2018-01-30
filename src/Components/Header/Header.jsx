@@ -1,13 +1,38 @@
 import React, { Component } from 'react';
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+/** Style */
 import './Header.css';
-/** Components */
-import Navigation from '../Navigation/Navigation';
 
 class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <Navigation />
+        <ParallaxProvider>
+          <div className="header-text">
+            <Parallax
+              className="custom-class"
+              offsetYMax={200}
+              offsetYMin={-200}
+              slowerScrollRate
+              tag="figure"
+            >
+              <div className="header-title">
+                DANIEL KANYO
+            </div>
+            </Parallax>
+            <Parallax
+              className="custom-class"
+              offsetYMax={150}
+              offsetYMin={-150}
+              slowerScrollRate
+              tag="figure"
+            >
+              <div className="header-description">
+                WEBDEVELOPER
+            </div>
+            </Parallax>
+          </div>
+        </ParallaxProvider>
       </div>
     );
   }
