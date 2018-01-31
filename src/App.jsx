@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from './Components/Navigation/Navigation';
 import Header from './Components/Header/Header';
 import About from './Components/About/About';
+import Skills from './Components/Skills/Skills';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Navigation />
         <Header />
         <About />
+        <Skills />
       </div>
     );
   }

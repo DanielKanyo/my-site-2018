@@ -38,3 +38,9 @@
   border: 1px solid #14ff85;
   color: #14ff85;
 }
+
+@media screen and (max-width: 1000px) {
+  .App {
+    margin-bottom: 0px;
+  }
+}

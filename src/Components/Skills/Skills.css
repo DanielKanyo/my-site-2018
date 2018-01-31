@@ -1,0 +1,25 @@
+.skills-content {
+  padding: 30px;
+}
+
+.progress {
+  text-align: center;
+  background: none;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0;
+  padding: 20px;
+  height: auto;
+}
+
+.CircularProgressbar-path {
+  stroke: #14ff85;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #14ff85;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
