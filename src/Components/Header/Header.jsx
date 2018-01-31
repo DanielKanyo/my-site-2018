@@ -9,9 +9,10 @@ class Header extends Component {
       <div className="Header">
         <ParallaxProvider>
           <div className="header-text">
+          
             <Parallax
               className="custom-class"
-              offsetYMax={200}
+              offsetYMax={300}
               offsetYMin={-200}
               slowerScrollRate
               tag="figure"
@@ -20,17 +21,10 @@ class Header extends Component {
                 DANIEL KANYO
             </div>
             </Parallax>
-            <Parallax
-              className="custom-class"
-              offsetYMax={-150}
-              offsetYMin={150}
-              slowerScrollRate
-              tag="figure"
-            >
-              <div className="header-description">
-                WEBDEVELOPER
+
+            <div className="header-description">
+              WEBDEVELOPER
             </div>
-            </Parallax>
           </div>
         </ParallaxProvider>
       </div>
