@@ -19,29 +19,38 @@ class Skills extends Component {
         <div className="component-title skills-title">Skills</div>
         <Grid>
           <Row className="show-grid">
-            <Col className="progress" sm={4} xs={6}>
-              <div className="circleElement">
-                JavaScript
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">JavaScript</div>
+              <div className="circle-element">
                 <ChangingProgressbar
                   percentages={[0, 80]}
                   strokeWidth={2}
                 />
               </div>
             </Col>
-            <Col className="progress" sm={4} xs={6}>
-              <div className="circleElement">
-                React
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">React</div>
+              <div className="circle-element">
                 <ChangingProgressbar
                   percentages={[0, 60]}
                   strokeWidth={2}
                 />
               </div>
             </Col>
-            <Col className="progress" sm={4} xs={6}>
-              <div className="circleElement">
-                Jquery
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Jquery</div>
+              <div className="circle-element">
                 <ChangingProgressbar
                   percentages={[0, 80]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">NodeJS</div>
+              <div className="circle-element">
+                <ChangingProgressbar
+                  percentages={[0, 50]}
                   strokeWidth={2}
                 />
               </div>
