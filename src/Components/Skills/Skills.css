@@ -1,5 +1,6 @@
 .Skills {
   padding: 30px 0px;
+  background: #ccc;
 }
 
 .skills-title {
@@ -22,13 +23,13 @@
 }
 
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: #101010;
+  stroke: #5f5f5f;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
 
 .CircularProgressbar .CircularProgressbar-trail {
-  stroke: #d6d6d6;
+  stroke: #e9e9e9;
 }
 
 .CircularProgressbar .CircularProgressbar-text {
@@ -59,6 +60,16 @@
   width: 90%;
   padding: 5px 25px 0px 25px;
   margin: 0 auto;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.circle-element:hover {
+  -webkit-filter: none;
+  filter: none;
 }
 
 .circle-element-title {
@@ -70,9 +81,98 @@
   padding: 10px 0 15px 0;
 }
 
-.asd {
-  margin: 0;
-  padding: 20px;
-  height: 200px;
-  background: pink;
+.javascript-skill {
+  background-image: url("../../Images/js.png");
+  background-size: 50%;
+}
+.javascript-skill:hover .CircularProgressbar-path {
+  stroke: #ffdd50;
+}
+
+.react-skill {
+  background-image: url("../../Images/react.png");
+  background-size: 50%;
+}
+.react-skill:hover .CircularProgressbar-path {
+  stroke: #1fd3f1;
+}
+
+.jquery-skill {
+  background-image: url("../../Images/jquery.png");
+  background-size: 35%;
+}
+.jquery-skill:hover .CircularProgressbar-path {
+  stroke: #1268ae;
+}
+
+.node-skill {
+  background-image: url("../../Images/nodejs.png");
+  background-size: 48%;
+}
+.node-skill:hover .CircularProgressbar-path {
+  stroke: #4bae4f;
+}
+
+.git-skill {
+  background-image: url("../../Images/git.png");
+  background-size: 35%;
+}
+.git-skill:hover .CircularProgressbar-path {
+  stroke: #f0513d;
+}
+
+.bootstrap-skill {
+  background-image: url("../../Images/bootstrap.png");
+  background-size: 32%;
+}
+.bootstrap-skill:hover .CircularProgressbar-path {
+  stroke: #553d7b;
+}
+
+.java-skill {
+  background-image: url("../../Images/java.png");
+  background-size: 30%;
+}
+.java-skill:hover .CircularProgressbar-path {
+  stroke: #ea3e3b;
+}
+
+.ps-skill {
+  background-image: url("../../Images/ps.png");
+  background-size: 35%;
+}
+.ps-skill:hover .CircularProgressbar-path {
+  stroke: #033a77;
+}
+
+.mongo-skill {
+  background-image: url("../../Images/mongodb.png");
+  background-size: 40%;
+}
+.mongo-skill:hover .CircularProgressbar-path {
+  stroke: #358a37;
+}
+
+.docker-skill {
+  background-image: url("../../Images/docker.png");
+  background-size: 40%;
+}
+.docker-skill:hover .CircularProgressbar-path {
+  stroke: #0588d1;
+}
+
+.jenkins-skill {
+  background-image: url("../../Images/jenkins.png");
+  background-size: 30%;
+}
+.jenkins-skill:hover .CircularProgressbar-path {
+  stroke: #335061;
+}
+
+.script-skill {
+  background-image: url("../../Images/script.png");
+  background-size: 30%;
+}
+.script-skill:hover .CircularProgressbar-path {
+  stroke: #3d3d3d;
 }

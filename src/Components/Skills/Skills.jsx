@@ -21,7 +21,7 @@ class Skills extends Component {
           <Row className="show-grid">
             <Col className="progress" md={3} sm={4} xs={6}>
               <div className="circle-element-title">JavaScript</div>
-              <div className="circle-element">
+              <div className="circle-element javascript-skill">
                 <ChangingProgressbar
                   percentages={[0, 80]}
                   strokeWidth={2}
@@ -30,27 +30,99 @@ class Skills extends Component {
             </Col>
             <Col className="progress" md={3} sm={4} xs={6}>
               <div className="circle-element-title">React</div>
-              <div className="circle-element">
+              <div className="circle-element react-skill">
                 <ChangingProgressbar
-                  percentages={[0, 60]}
+                  percentages={[0, 65]}
                   strokeWidth={2}
                 />
               </div>
             </Col>
             <Col className="progress" md={3} sm={4} xs={6}>
               <div className="circle-element-title">Jquery</div>
-              <div className="circle-element">
+              <div className="circle-element jquery-skill">
                 <ChangingProgressbar
-                  percentages={[0, 80]}
+                  percentages={[0, 85]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Java</div>
+              <div className="circle-element java-skill">
+                <ChangingProgressbar
+                  percentages={[0, 50]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Git</div>
+              <div className="circle-element git-skill">
+                <ChangingProgressbar
+                  percentages={[0, 50]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Bootstrap</div>
+              <div className="circle-element bootstrap-skill">
+                <ChangingProgressbar
+                  percentages={[0, 90]}
                   strokeWidth={2}
                 />
               </div>
             </Col>
             <Col className="progress" md={3} sm={4} xs={6}>
               <div className="circle-element-title">NodeJS</div>
-              <div className="circle-element">
+              <div className="circle-element node-skill">
                 <ChangingProgressbar
                   percentages={[0, 50]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">PhotoShop</div>
+              <div className="circle-element ps-skill">
+                <ChangingProgressbar
+                  percentages={[0, 90]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">MongoDB</div>
+              <div className="circle-element mongo-skill">
+                <ChangingProgressbar
+                  percentages={[0, 40]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Docker</div>
+              <div className="circle-element docker-skill">
+                <ChangingProgressbar
+                  percentages={[0, 40]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Jenkins</div>
+              <div className="circle-element jenkins-skill">
+                <ChangingProgressbar
+                  percentages={[0, 40]}
+                  strokeWidth={2}
+                />
+              </div>
+            </Col>
+            <Col className="progress" md={3} sm={4} xs={6}>
+              <div className="circle-element-title">Shell Script</div>
+              <div className="circle-element script-skill">
+                <ChangingProgressbar
+                  percentages={[0, 40]}
                   strokeWidth={2}
                 />
               </div>
@@ -100,7 +172,7 @@ class ChangingProgressbar extends React.Component {
   }
 }
 ChangingProgressbar.defaultProps = {
-  interval: 3000,
+  interval: 2000,
 }
 
 export default Skills;

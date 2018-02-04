@@ -12,21 +12,34 @@
 }
 
 .header-title {
+  background: #14ff85;
+  width: 500px;
+  letter-spacing: 10px;
+  text-indent: 10px;
+  margin: 0 auto;
+  transform: skewX(-15deg);
   font-weight: 300;
-  letter-spacing: 50px;
-  text-indent: 50px;
-  height: auto;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
 }
 
 .header-description {
   font-size: 14px;
-  color: #777;
-  margin-top: 50px;
+  width: 300px;
+  background: #727272;
+  transform: skewX(15deg);
+  margin: 0 auto;
+  color: #14ff85;
+  margin-top: -5px;
   text-align: center;
-  letter-spacing: 40px;
-  text-indent: 40px;
+  letter-spacing: 10px;
+  text-indent: 10px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 767px) {
