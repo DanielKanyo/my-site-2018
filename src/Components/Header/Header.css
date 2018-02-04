@@ -5,6 +5,7 @@
   background-position: center;
   background-position-y: 100%;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .header-text {
@@ -12,7 +13,7 @@
 }
 
 .header-title {
-  background: #14ff85;
+  background: #40E0D0;
   width: 500px;
   letter-spacing: 10px;
   text-indent: 10px;
@@ -32,7 +33,7 @@
   background: #727272;
   transform: skewX(15deg);
   margin: 0 auto;
-  color: #14ff85;
+  color: #40E0D0;
   margin-top: -5px;
   text-align: center;
   letter-spacing: 10px;
@@ -51,28 +52,45 @@
   }
 
   .header-text {
-    padding-top: 30px;
+    padding-top: 60px;
   }
 
   .header-title {
-    font-size: 16px;
-    letter-spacing: 18px;
-    text-indent: 18px;
+    font-size: 20px;
+    width: 350px;
+    padding: 4px;
+    letter-spacing: 10px;
+    text-indent: 10px;
   }
 
   .header-description {
     font-size: 12px;
-    letter-spacing: 16px;
-    text-indent: 16px;
+    width: 250px;
+    letter-spacing: 10px;
+    text-indent: 10px;
   } 
 }
 
 @media screen and (max-width: 477px) {
   .Header {
-    height: 220px;
+    height: 210px;
   }
 
   .header-text {
-    padding-top: 0px;
+    padding-top: 50px;
   }
+
+  .header-title {
+    width: 220px;
+    letter-spacing: 5px;
+    text-indent: 5px;
+  }
+
+  .header-description {
+    font-size: 12px;
+
+    width: 200px;
+    letter-spacing: 4px;
+    text-indent: 4px;
+  } 
 }

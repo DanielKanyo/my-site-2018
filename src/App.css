@@ -31,12 +31,12 @@
   text-transform: uppercase;
   background: none;
   outline: none;
-  border: 1px solid #14ff85;
-  color: #14ff85;
+  border: 1px solid #40E0D0;
+  color: #40E0D0;
 }
 
 .main-button:hover {
-  background: #14ff85;
+  background: #40E0D0;
   color: #1d1d1d;
 }
 

@@ -12,8 +12,8 @@ class Header extends Component {
           
             <Parallax
               className="custom-class"
-              offsetXMax={6}
-              offsetXMin={-6}
+              offsetXMax={8}
+              offsetXMin={-8}
               slowerScrollRate
               tag="figure"
             >
@@ -23,8 +23,8 @@ class Header extends Component {
             </Parallax>
             <Parallax
               className="custom-class"
-              offsetXMax={-6}
-              offsetXMin={6}
+              offsetXMax={-8}
+              offsetXMin={8}
               slowerScrollRate
               tag="figure"
             >

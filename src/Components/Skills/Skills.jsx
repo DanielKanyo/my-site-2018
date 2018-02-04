@@ -19,7 +19,7 @@ class Skills extends Component {
         <div className="component-title skills-title">Skills</div>
         <Grid>
           <Row className="show-grid">
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">JavaScript</div>
               <div className="circle-element javascript-skill">
                 <ChangingProgressbar
@@ -28,7 +28,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">React</div>
               <div className="circle-element react-skill">
                 <ChangingProgressbar
@@ -37,7 +37,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Jquery</div>
               <div className="circle-element jquery-skill">
                 <ChangingProgressbar
@@ -46,7 +46,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Java</div>
               <div className="circle-element java-skill">
                 <ChangingProgressbar
@@ -55,7 +55,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Git</div>
               <div className="circle-element git-skill">
                 <ChangingProgressbar
@@ -64,7 +64,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Bootstrap</div>
               <div className="circle-element bootstrap-skill">
                 <ChangingProgressbar
@@ -73,7 +73,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">NodeJS</div>
               <div className="circle-element node-skill">
                 <ChangingProgressbar
@@ -82,7 +82,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">PhotoShop</div>
               <div className="circle-element ps-skill">
                 <ChangingProgressbar
@@ -91,7 +91,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">MongoDB</div>
               <div className="circle-element mongo-skill">
                 <ChangingProgressbar
@@ -100,7 +100,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Docker</div>
               <div className="circle-element docker-skill">
                 <ChangingProgressbar
@@ -109,7 +109,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Jenkins</div>
               <div className="circle-element jenkins-skill">
                 <ChangingProgressbar
@@ -118,7 +118,7 @@ class Skills extends Component {
                 />
               </div>
             </Col>
-            <Col className="progress" md={3} sm={4} xs={6}>
+            <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Shell Script</div>
               <div className="circle-element script-skill">
                 <ChangingProgressbar
