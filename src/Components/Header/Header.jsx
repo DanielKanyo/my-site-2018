@@ -9,21 +9,21 @@ class Header extends Component {
       <div className="Header">
         <ParallaxProvider>
           <div className="header-text">
-          
+
             <Parallax
               className="custom-class"
               offsetXMax={8}
-              offsetXMin={-8}
+              offsetXMin={-4}
               slowerScrollRate
               tag="figure"
             >
               <div className="header-title">
                 DANIEL KANYO
-            </div>
+              </div>
             </Parallax>
             <Parallax
               className="custom-class"
-              offsetXMax={-8}
+              offsetXMax={-4}
               offsetXMin={8}
               slowerScrollRate
               tag="figure"

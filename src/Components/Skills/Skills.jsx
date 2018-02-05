@@ -27,6 +27,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">
+                  Learn More
+                </a>
+              </div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">React</div>
@@ -36,6 +41,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Jquery</div>
@@ -45,6 +51,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Java</div>
@@ -54,6 +61,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Git</div>
@@ -63,6 +71,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Bootstrap</div>
@@ -72,6 +81,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">NodeJS</div>
@@ -81,6 +91,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">PhotoShop</div>
@@ -90,6 +101,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">MongoDB</div>
@@ -99,6 +111,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Docker</div>
@@ -108,6 +121,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Jenkins</div>
@@ -117,6 +131,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Shell Script</div>
@@ -126,6 +141,7 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
+              <div className="learn-more-skill">Learn More</div>
             </Col>
           </Row>
         </Grid>
