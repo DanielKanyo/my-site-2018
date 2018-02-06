@@ -27,11 +27,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">
-                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">
+              <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
                   Learn More
-                </a>
-              </div>
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">React</div>
@@ -41,7 +41,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Jquery</div>
@@ -51,7 +55,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Java</div>
@@ -61,7 +69,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Git</div>
@@ -71,7 +83,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Bootstrap</div>
@@ -81,7 +97,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">NodeJS</div>
@@ -91,7 +111,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">PhotoShop</div>
@@ -101,7 +125,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">MongoDB</div>
@@ -111,7 +139,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Docker</div>
@@ -121,7 +153,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Docker_(software)" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Jenkins</div>
@@ -131,7 +167,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Jenkins_(software)" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
             <Col className="progress" md={2} sm={3} xs={6}>
               <div className="circle-element-title">Shell Script</div>
@@ -141,7 +181,11 @@ class Skills extends Component {
                   strokeWidth={2}
                 />
               </div>
-              <div className="learn-more-skill">Learn More</div>
+              <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank" rel="noopener noreferrer">
+                <div className="learn-more-skill">
+                  Learn More
+                </div>
+              </a>
             </Col>
           </Row>
         </Grid>
