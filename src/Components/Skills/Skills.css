@@ -1,6 +1,16 @@
+.skillBackground {
+  position: absolute;
+  background-image: url("../../Images/pic9.jpeg");
+  height: 100%;
+  width: 100%;
+  opacity: 0.18;
+  margin: -30px -15px;
+  background-size: 100%;
+}
+
 .Skills {
+  position: relative;
   padding: 30px 15px;
-  background: #ccc;
 }
 
 .skills-title {
@@ -216,6 +226,12 @@
 @media screen and (max-width: 767px) {
   .col-xs-6 {
     width: 33.333333% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .skillBackground {
+    background: none;
   }
 }
 

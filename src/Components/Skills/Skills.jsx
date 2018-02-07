@@ -16,6 +16,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="Skills">
+        <div className="skillBackground"></div>
         <div className="component-title skills-title">Skills</div>
         <Grid>
           <Row className="show-grid">

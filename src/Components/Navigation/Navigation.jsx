@@ -14,9 +14,6 @@ class Navigation extends Component {
       <div className="Navigation">
         <Navbar className="my-custom-navbar" inverse>
           <Navbar.Header>
-            <Navbar.Brand className="navbar-brand">
-              daniel kanyo
-            </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
