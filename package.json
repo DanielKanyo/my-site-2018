@@ -7,6 +7,8 @@
     "react-bootstrap": "^0.32.1",
     "react-circular-progressbar": "^0.7.0",
     "react-dom": "^16.2.0",
+    "react-interval": "^2.0.2",
+    "react-progressbar": "^15.4.1",
     "react-progressbar.js": "^0.2.0",
     "react-scripts": "1.1.0",
     "react-scroll-parallax": "^1.2.1"
@@ -15,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "git pull && npm run build && firebase deploy"
   },
   "devDependencies": {
     "react-icons-kit": "^1.0.7"

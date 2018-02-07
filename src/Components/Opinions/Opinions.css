@@ -1,0 +1,18 @@
+.Opinions {
+  background: #101010;
+  text-align: center;
+  color: #ccc;
+}
+
+.opinions-content {
+  padding: 30px;
+}
+
+.progressbar-progress {
+  background-color: #40e0d0 !important ;
+  height: 2px !important;
+}
+
+.opinions-text {
+  margin-bottom: 18px;
+}

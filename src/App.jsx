@@ -5,6 +5,7 @@ import Navigation from './Components/Navigation/Navigation';
 import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
+import Opinions from './Components/Opinions/Opinions';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Header />
         <About />
         <Skills />
+        <Opinions />
       </div>
     );
   }

@@ -27,6 +27,7 @@
   padding: 10px;
   height: auto;
   transition: 0.3s;
+  border-radius: 0px;
 }
 
 .progress:hover {
