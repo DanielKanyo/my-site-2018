@@ -24,7 +24,7 @@ class Opinions extends Component {
     let arrayLength = this.state.opinions.length - 1;
 
     return (
-      <div className="Opinions">
+      <div className="Opinions" name="opinions">
         <div className="opinions-content">
           <div className="component-title opinions-title">
             Opinions
