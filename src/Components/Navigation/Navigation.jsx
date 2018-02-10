@@ -23,7 +23,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="Navigation">
-        <Navbar className="my-custom-navbar" inverse>
+        <Navbar fixedTop className="my-custom-navbar" inverse>
           <Navbar.Header>
             <Navbar.Toggle />
           </Navbar.Header>

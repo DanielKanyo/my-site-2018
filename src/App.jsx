@@ -10,13 +10,13 @@ import Opinions from './Components/Opinions/Opinions';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navigation />
-        <Header />
-        <About />
-        <Skills />
-        <Opinions />
-      </div>
+        <div className="App">
+          <Navigation />
+          <Header />
+          <About />
+          <Skills />
+          <Opinions />
+        </div>
     );
   }
 }
