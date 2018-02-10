@@ -1,0 +1,11 @@
+.my-carousel {
+  height: 400px;
+}
+
+.carousel-control {
+  background-image: none !important;
+}
+
+.hobbies-content {
+  padding: 30px;
+}

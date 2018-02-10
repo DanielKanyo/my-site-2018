@@ -38,7 +38,7 @@ class Navigation extends Component {
               <NavItem eventKey={3} onClick={(componentName) => this.scrollTo('opinions')}>
                 opinions
               </NavItem>
-              <NavItem eventKey={4}>
+              <NavItem eventKey={4} onClick={(componentName) => this.scrollTo('hobbies')}>
                 hobbies
               </NavItem>
               <NavItem eventKey={4}>
