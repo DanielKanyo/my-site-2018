@@ -230,14 +230,14 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .skillBackground {
-    background: none;
-  }
-}
-
 @media screen and (max-width: 467px) {
   .col-xs-6 {
     width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .skill-background {
+    background: none;
   }
 }
