@@ -3,9 +3,11 @@ import SwipeableViews from 'react-swipeable-views';
 import SupportTouch from 'react-swipeable-views';
 import './App.css';
 
+import Welcome from './Components/Welcome/Welcome';
+
 const styles = {
   slide: {
-    padding: 15,
+    padding: 100,
     minHeight: '100vh',
     bottom: 0,
     color: '#fff',
@@ -27,7 +29,7 @@ class App extends Component {
       <div className="App">
         <SupportTouch>
           <SwipeableViews enableMouseEvents resistance>
-            <div style={Object.assign({}, styles.slide, styles.slide1)}>slide n°1</div>
+            <div style={Object.assign({}, styles.slide, styles.slide1)}><Welcome /></div>
             <div style={Object.assign({}, styles.slide, styles.slide2)}>slide n°2</div>
             <div style={Object.assign({}, styles.slide, styles.slide3)}>slide n°3</div>
           </SwipeableViews>
