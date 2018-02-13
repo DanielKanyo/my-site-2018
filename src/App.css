@@ -1,10 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
 .Component {
-  height: calc(100vh - 200px);
-  border-radius: 4px;
-  padding: 30px 40px;
+  height: calc(100vh - 160px);
   font-family: 'Roboto Condensed', sans-serif;
-  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
+}
+
+.slide {
+  padding: 80px 100px;
+  height: calc(100vh);
+  bottom: 0;
+  color: #fff;
+}
+
+.tabs {
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.tabs > div:first-of-type {
+  background: transparent !important;
+}
+
+.tabs > div:nth-of-type(2) div {
+  background: white !important;
+}
+
+.tab {    
+  text-transform: capitalize !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.slide1 {
+  background: #FEA900;
+}
+
+.slide2 {
+  background: #B3DC4A;
+}
+
+.slide3 {
+  background: #6AC0FF;
+}
+
+.slide4 {
+  background: #c574ff;
+}
+
+.slide5 {
+  background: #ff7474;
 }
