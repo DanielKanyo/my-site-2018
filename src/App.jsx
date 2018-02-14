@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import SupportTouch from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-// import Tabs, { Tab } from 'material-ui/Tabs';
+/** material ui */
 import IconButton from 'material-ui/IconButton';
 import NavigationMenu from 'material-ui/svg-icons/navigation/menu';
+import Drawer from 'material-ui/Drawer';
+import MenuItem from 'material-ui/MenuItem';
+/** style */
 import './App.css';
 /** components */
 import Welcome from './Components/Welcome/Welcome';
@@ -12,15 +15,15 @@ import Welcome from './Components/Welcome/Welcome';
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 const styles = {
-    margin: 0,
-    left: 15,
-    top: 10,
-    right: 'auto',
-    position: 'fixed',
-    zIndex: 2,
-    width: 68,
-    height: 68,
-    padding: 16,
+  margin: 0,
+  left: 15,
+  top: 10,
+  right: 'auto',
+  position: 'fixed',
+  zIndex: 2,
+  width: 68,
+  height: 68,
+  padding: 16,
 };
 
 const iconStyle = {
@@ -37,6 +40,7 @@ class App extends Component {
     super(props);
     this.state = {
       index: 0,
+      open: false
     };
   }
 
@@ -52,19 +56,29 @@ class App extends Component {
     });
   };
 
+  handleToggle = () => this.setState({ open: !this.state.open });
+  handleClose = () => this.setState({ open: false });
+
   render() {
     return (
       <div className="App">
-        <IconButton iconStyle={iconStyle.icon} style={styles}>
+
+        <IconButton iconStyle={iconStyle.icon} style={styles} onClick={this.handleToggle}>
           <NavigationMenu />
         </IconButton>
-        {/* <Tabs value={this.state.index} className="tabs" onChange={this.handleChange}>
-          <Tab className="tab" value={0} label="Welcome" />
-          <Tab className="tab" value={1} label="About Me" />
-          <Tab className="tab" value={2} label="Skills" />
-          <Tab className="tab" value={3} label="Projects" />
-          <Tab className="tab" value={4} label="Contact" />
-        </Tabs> */}
+
+        <Drawer
+          docked={false}
+          open={this.state.open}
+          onRequestChange={(open) => this.setState({ open })}
+        >
+          <MenuItem onClick={this.handleClose}>Home</MenuItem>
+          <MenuItem onClick={this.handleClose}>About Me</MenuItem>
+          <MenuItem onClick={this.handleClose}>Skills</MenuItem>
+          <MenuItem onClick={this.handleClose}>Projects</MenuItem>
+          <MenuItem onClick={this.handleClose}>Contact</MenuItem>
+        </Drawer>
+
         <SupportTouch>
           <BindKeyboardSwipeableViews enableMouseEvents resistance index={this.state.index} onChangeIndex={this.handleChangeIndex}>
             <div className="slide slide1"><Welcome /></div>
