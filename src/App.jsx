@@ -51,6 +51,7 @@ class App extends Component {
   };
 
   handleChangeIndex = (index) => {
+    console.log(index)
     this.setState({
       index,
     });
@@ -69,14 +70,15 @@ class App extends Component {
 
         <Drawer
           docked={false}
+          className="my-drawer"
           open={this.state.open}
           onRequestChange={(open) => this.setState({ open })}
         >
-          <MenuItem onClick={this.handleClose}>Home</MenuItem>
-          <MenuItem onClick={this.handleClose}>About Me</MenuItem>
-          <MenuItem onClick={this.handleClose}>Skills</MenuItem>
-          <MenuItem onClick={this.handleClose}>Projects</MenuItem>
-          <MenuItem onClick={this.handleClose}>Contact</MenuItem>
+          <MenuItem onClick={() => { this.handleClose(); this.handleChangeIndex(0) }}>Home</MenuItem>
+          <MenuItem onClick={() => { this.handleClose(); this.handleChangeIndex(1) }}>About Me</MenuItem>
+          <MenuItem onClick={() => { this.handleClose(); this.handleChangeIndex(2) }}>Skills</MenuItem>
+          <MenuItem onClick={() => { this.handleClose(); this.handleChangeIndex(3) }}>Projects</MenuItem>
+          <MenuItem onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}>Contact</MenuItem>
         </Drawer>
 
         <SupportTouch>
