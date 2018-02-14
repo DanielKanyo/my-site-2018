@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 
 .Component {
-  height: calc(100vh - 160px);
+  height: calc(100vh - 240px);
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.5);
@@ -9,7 +9,7 @@
 }
 
 .slide {
-  padding: 80px 100px;
+  padding: 120px 140px;
   height: calc(100vh);
   bottom: 0;
   color: #fff;
@@ -22,6 +22,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  display: none;
 }
 
 .tabs > div:first-of-type {
