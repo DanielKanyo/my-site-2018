@@ -70,7 +70,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="Navigation">
-        <IconButton iconStyle={styles.menuStyle} style={styles} onClick={this.handleToggle}>
+        <IconButton iconStyle={styles.menuStyle} className="menu-icon" style={styles} onClick={this.handleToggle}>
           <NavigationMenu />
         </IconButton>
 
@@ -138,7 +138,8 @@ class Navigation extends Component {
               className="menu-btn-social"
               fullWidth={true}
               style={styles.flatButtonStyle}
-              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              href="https://www.instagram.com/daniel_kanyo/"
+              target="_blank"
               label="Instagram"
               secondary={true}
               icon={<FontIcon className={"fa fa-instagram"} style={styles.menuIconStyle} />}
@@ -147,7 +148,8 @@ class Navigation extends Component {
               className="menu-btn-social"
               fullWidth={true}
               style={styles.flatButtonStyle}
-              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              href="https://www.facebook.com/kanyo.daniel"
+              target="_blank"
               label="Facebook"
               secondary={true}
               icon={<FontIcon className={"fa fa-facebook-square"} style={styles.menuIconStyle} />}
@@ -156,7 +158,8 @@ class Navigation extends Component {
               className="menu-btn-social"
               fullWidth={true}
               style={styles.flatButtonStyle}
-              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              href="https://github.com/DanielKanyo"
+              target="_blank"
               label="Facebook"
               secondary={true}
               icon={<FontIcon className={"fa fa-github"} style={styles.menuIconStyle} />}

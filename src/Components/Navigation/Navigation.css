@@ -25,3 +25,11 @@
   font-size: 24px !important;
   text-transform: capitalize !important;
 }
+
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    width: 34px !important;
+    height: 34px !important;
+    padding: 0px !important;
+  }
+}
