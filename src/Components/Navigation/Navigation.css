@@ -1,3 +1,15 @@
 .my-drawer>div:nth-of-type(2) {
-  padding-top: 20px;
+  background-color: #262626 !important;
+  padding-top: 40px; 
+}
+
+.menu-btn span {
+  text-transform: capitalize !important;
+  font-size: 15px !important;
+}
+
+.close-icon {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
 }

@@ -60,7 +60,7 @@ class App extends Component {
             <Welcome />
             <div className="slide slide2">About Me</div>
             <div className="slide slide3">Skills</div>
-            <div className="slide slide4">Projects</div>
+            <div className="slide slide4">Opinions</div>
             <div className="slide slide5">Contact</div>
           </BindKeyboardSwipeableViews>
         </SupportTouch>
