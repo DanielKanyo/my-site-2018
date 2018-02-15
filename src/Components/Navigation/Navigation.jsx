@@ -9,7 +9,8 @@ import SocialPerson from 'material-ui/svg-icons/social/person';
 import ToggleStar from 'material-ui/svg-icons/toggle/star';
 import ActionLoyalty from 'material-ui/svg-icons/action/loyalty';
 import CommunicationForum from 'material-ui/svg-icons/communication/forum';
-import NavigationClose from 'material-ui/svg-icons/navigation/close'
+import NavigationClose from 'material-ui/svg-icons/navigation/close';
+import FontIcon from 'material-ui/FontIcon';
 /** style */
 import './Navigation.css';
 
@@ -30,7 +31,8 @@ const styles = {
   },
   menuIconStyle: {
     marginRight: 28,
-    marginLeft: 24
+    marginLeft: 24,
+    fontSize: '24px'
   },
   flatButtonStyle: {
     textAlign: 'left',
@@ -81,51 +83,86 @@ class Navigation extends Component {
           <IconButton iconStyle={styles.closeIconStyle} className="close-icon" onClick={this.handleToggle}>
             <NavigationClose />
           </IconButton>
-          <FlatButton
-            className="menu-btn"
-            fullWidth={true}
-            style={styles.flatButtonStyle}
-            onClick={() => { this.handleClose(); this.handleChangeIndex(0) }}
-            label="Home"
-            secondary={true}
-            icon={<ActionHome style={styles.menuIconStyle} />}
-          />
-          <FlatButton
-            className="menu-btn"
-            fullWidth={true}
-            style={styles.flatButtonStyle}
-            onClick={() => { this.handleClose(); this.handleChangeIndex(1) }}
-            label="About Me"
-            secondary={true}
-            icon={<SocialPerson style={styles.menuIconStyle} />}
-          />
-          <FlatButton
-            className="menu-btn"
-            fullWidth={true}
-            style={styles.flatButtonStyle}
-            onClick={() => { this.handleClose(); this.handleChangeIndex(2) }}
-            label="Skills"
-            secondary={true}
-            icon={<ToggleStar style={styles.menuIconStyle} />}
-          />
-          <FlatButton
-            className="menu-btn"
-            fullWidth={true}
-            style={styles.flatButtonStyle}
-            onClick={() => { this.handleClose(); this.handleChangeIndex(3) }}
-            label="Opinions"
-            secondary={true}
-            icon={<ActionLoyalty style={styles.menuIconStyle} />}
-          />
-          <FlatButton
-            className="menu-btn"
-            fullWidth={true}
-            style={styles.flatButtonStyle}
-            onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
-            label="Contact"
-            secondary={true}
-            icon={<CommunicationForum style={styles.menuIconStyle} />}
-          />
+          <div className="menu-item-container">
+            <FlatButton
+              className="menu-btn"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(0) }}
+              label="Home"
+              secondary={true}
+              icon={<ActionHome style={styles.menuIconStyle} />}
+            />
+            <FlatButton
+              className="menu-btn"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(1) }}
+              label="About Me"
+              secondary={true}
+              icon={<SocialPerson style={styles.menuIconStyle} />}
+            />
+            <FlatButton
+              className="menu-btn"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(2) }}
+              label="Skills"
+              secondary={true}
+              icon={<ToggleStar style={styles.menuIconStyle} />}
+            />
+            <FlatButton
+              className="menu-btn"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(3) }}
+              label="Opinions"
+              secondary={true}
+              icon={<ActionLoyalty style={styles.menuIconStyle} />}
+            />
+            <FlatButton
+              className="menu-btn"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              label="Contact"
+              secondary={true}
+              icon={<CommunicationForum style={styles.menuIconStyle} />}
+            />
+          </div>
+
+          <hr />
+
+          <div className="menu-item-social">
+            <FlatButton
+              className="menu-btn-social"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              label="Instagram"
+              secondary={true}
+              icon={<FontIcon className={"fa fa-instagram"} style={styles.menuIconStyle} />}
+            />
+            <FlatButton
+              className="menu-btn-social"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              label="Facebook"
+              secondary={true}
+              icon={<FontIcon className={"fa fa-facebook-square"} style={styles.menuIconStyle} />}
+            />
+            <FlatButton
+              className="menu-btn-social"
+              fullWidth={true}
+              style={styles.flatButtonStyle}
+              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
+              label="Facebook"
+              secondary={true}
+              icon={<FontIcon className={"fa fa-github"} style={styles.menuIconStyle} />}
+            />
+          </div>
+
         </Drawer>
       </div>
     );

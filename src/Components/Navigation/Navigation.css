@@ -3,13 +3,25 @@
   padding-top: 40px; 
 }
 
-.menu-btn span {
+.menu-item-container .menu-btn span {
   text-transform: capitalize !important;
-  font-size: 15px !important;
 }
 
 .close-icon {
   position: absolute !important;
   top: 0 !important;
   right: 0 !important;
+}
+
+.menu-item-social .menu-btn-social span {
+  text-transform: capitalize !important;
+}
+
+.Navigation hr {
+  background: #3c3c3c;
+}
+
+.fa {
+  font-size: 24px !important;
+  text-transform: capitalize !important;
 }
