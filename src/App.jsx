@@ -7,6 +7,7 @@ import './App.css';
 /** components */
 import Welcome from './Components/Welcome/Welcome';
 import Navigation from './Components/Navigation/Navigation';
+import Pagination from './Components/Pagination/Pagination';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -64,6 +65,8 @@ class App extends Component {
             <div className="slide slide5">Contact</div>
           </BindKeyboardSwipeableViews>
         </SupportTouch>
+
+        <Pagination />
       </div>
     );
   }
