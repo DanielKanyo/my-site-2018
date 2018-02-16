@@ -160,7 +160,7 @@ class Navigation extends Component {
               style={styles.flatButtonStyle}
               href="https://github.com/DanielKanyo"
               target="_blank"
-              label="Facebook"
+              label="GitHub"
               secondary={true}
               icon={<FontIcon className={"fa fa-github"} style={styles.menuIconStyle} />}
             />
