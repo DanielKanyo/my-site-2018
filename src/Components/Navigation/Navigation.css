@@ -17,6 +17,10 @@
   text-transform: capitalize !important;
 }
 
+.menu-item-social a div {
+  margin: 4px 0px;
+}
+
 .Navigation hr {
   background: #3c3c3c;
 }
