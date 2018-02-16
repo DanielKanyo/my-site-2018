@@ -66,7 +66,10 @@ class App extends Component {
           </BindKeyboardSwipeableViews>
         </SupportTouch>
 
-        <Pagination />
+        <Pagination 
+          indexProp={this.state.index}
+          handleChangeIndexProp={this.handleChangeIndex.bind(this)}
+        />
       </div>
     );
   }

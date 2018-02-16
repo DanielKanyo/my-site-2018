@@ -8,16 +8,16 @@
 }
 
 .pagination-btn {
-  min-width: 28px !important;
+  min-width: 22px !important;
   opacity: 0.5;
 }
 
 .pagination-btn .fa-circle {
   color: #bdbdbd !important;
-  font-size: 14px !important;
+  font-size: 10px !important;
 }
 
 .pagination-btn .fa-circle-o {
   color: #9e9e9e !important;
-  font-size: 11px !important;
+  font-size: 10px !important;
 }
