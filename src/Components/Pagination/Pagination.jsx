@@ -18,31 +18,31 @@ class Pagination extends Component {
           onClick={() => { this.handleChangeIndex(0) }}
           className="pagination-btn first"
           secondary={true}
-          icon={<FontIcon className={index === 0 ? "fa fa-circle" : "fa fa-circle-o"} />}
+          icon={<FontIcon className={index === 0 ? "fa fa-square" : "fa fa-square-o"} />}
         />
         <FlatButton
           onClick={() => { this.handleChangeIndex(1) }}
           className="pagination-btn second"
           secondary={true}
-          icon={<FontIcon className={index === 1 ? "fa fa-circle" : "fa fa-circle-o"} />}
+          icon={<FontIcon className={index === 1 ? "fa fa-square" : "fa fa-square-o"} />}
         />
         <FlatButton
           onClick={() => { this.handleChangeIndex(2) }}
           className="pagination-btn third"
           secondary={true}
-          icon={<FontIcon className={index === 2 ? "fa fa-circle" : "fa fa-circle-o"} />}
+          icon={<FontIcon className={index === 2 ? "fa fa-square" : "fa fa-square-o"} />}
         />
         <FlatButton
           onClick={() => { this.handleChangeIndex(3) }}
           className="pagination-btn fourth"
           secondary={true}
-          icon={<FontIcon className={index === 3 ? "fa fa-circle" : "fa fa-circle-o"} />}
+          icon={<FontIcon className={index === 3 ? "fa fa-square" : "fa fa-square-o"} />}
         />
         <FlatButton
           onClick={() => { this.handleChangeIndex(4) }}
           className="pagination-btn fifth"
           secondary={true}
-          icon={<FontIcon className={index === 4 ? "fa fa-circle" : "fa fa-circle-o"} />}
+          icon={<FontIcon className={index === 4 ? "fa fa-square" : "fa fa-square-o"} />}
         />
       </div>
     );
