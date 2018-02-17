@@ -1,22 +1,39 @@
-.my-custom-navbar {
-  border-radius: 0px;
-  border: 0px;
-  margin-bottom: 0px;
-  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+.my-drawer>div:nth-of-type(2) {
+  background-color: #262626 !important;
+  padding-top: 40px;
 }
 
-.navbar-brand {
-  display: none;
+.menu-item-container .menu-btn span {
+  text-transform: capitalize !important;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-  color: #40E0D0;
+.close-icon {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar-brand {
-    display: block;
+.menu-item-social .menu-btn-social span {
+  text-transform: capitalize !important;
+}
+
+.menu-item-social a div {
+  margin: 4px 0px;
+}
+
+.Navigation hr {
+  background: #3c3c3c;
+}
+
+.Navigation .fa {
+  font-size: 24px !important;
+  text-transform: capitalize !important;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    width: 34px !important;
+    height: 34px !important;
+    padding: 0px !important;
   }
 }

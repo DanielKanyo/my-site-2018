@@ -1,0 +1,95 @@
+.rotated-element {
+  width: 600px;
+  height: 490px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: -webkit-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: linear-gradient(135deg, #f2f2f2 0%, #dbdbdb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb', GradientType=1);
+  position: absolute;
+  right: -200px;
+  transform: rotate(30deg);
+  top: -100px;
+  -webkit-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.component-number {
+  position: absolute;
+  color: #1d4466;
+  top: 0;
+  right: 0;
+  font-size: 50px;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(29, 68, 102, 0.3);
+}
+
+@media screen and (max-width: 760px) {
+  .rotated-element {
+    width: 200px;
+    height: 600px;
+  }
+  .component-number {
+    display: none;
+  }
+}
+
+.component-title {
+  z-index: 10;
+  font-size: 20px;
+  position: absolute;
+  height: 100%;
+  left: 50px;
+  padding: 60px 50px;
+}
+
+.welcome-welcome {
+  margin-bottom: -15px;
+}
+
+.welcome-im-daniel {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: -16px;
+}
+
+.welcome-feel-free {
+  text-align: right;
+}
+
+.right-arrow-container .outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  right: 0;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.left-arrow-container .outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .right-arrow-container,
+  .left-arrow-container {
+    display: none;
+  }
+}

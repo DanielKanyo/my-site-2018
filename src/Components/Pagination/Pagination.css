@@ -1,0 +1,23 @@
+.Pagination {
+  position: fixed;
+  bottom: 0px;
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.pagination-btn {
+  min-width: 22px !important;
+  opacity: 1;
+}
+
+.pagination-btn .fa-square {
+  color: #d8d8d8 !important;
+  font-size: 8px !important;
+}
+
+.pagination-btn .fa-square-o {
+  color: #636363 !important;
+  font-size: 8px !important;
+}
