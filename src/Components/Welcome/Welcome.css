@@ -27,13 +27,20 @@
   border-bottom: 1px solid rgba(29, 68, 102, 0.3);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1000px) {
   .rotated-element {
-    width: 200px;
+    width: 400px;
     height: 600px;
   }
   .component-number {
     display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .rotated-element {
+    width: 200px;
+    height: 700px;
   }
 }
 
@@ -87,7 +94,7 @@
   left: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .right-arrow-container,
   .left-arrow-container {
     display: none;
