@@ -41,6 +41,19 @@ class Welcome extends Component {
               <div className="welcome-feel-free">FEEL FREE TO LOOK AROUND</div>
             </div>
 
+            <div className="component-text-first">
+              <span>I'm a full stack web developer who loves programming, and who has a little sense of design.</span><br /><br />
+              <span className="content-desktop-view">
+                On the site, for the navigation, you can use your mouse, the left and right key on your keyboard, and the menu
+                to navigate between the pages. <br /><br />
+                Have fun!
+              </span>
+              <span className="content-mobile-view">
+                On the site, for the navigation, you can swipe between the pages, or you can use the menu bar on the left. <br /><br />
+                Have fun!
+              </span>
+            </div>
+
             <div className="rotated-element"></div>
 
             <div className="left-arrow-container">
