@@ -165,15 +165,17 @@
     padding: 60px 50px;
   }
   .welcome-welcome {
-    margin-bottom: -30px;
+    margin-bottom: -25px;
+    font-size: 40px;
   }
   .welcome-im-daniel {
     font-size: 100px;
     font-weight: 800;
-    margin-bottom: -30px;
+    margin-bottom: -25px;
   }
   .welcome-feel-free {
     text-align: center;
+    font-size: 40px;
   }
   .component-text-first {
     position: absolute;
