@@ -1,0 +1,82 @@
+.About .rotated-element {
+  width: 600px;
+  height: 490px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: -webkit-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: linear-gradient(135deg, #f2f2f2 0%, #dbdbdb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb', GradientType=1);
+  position: absolute;
+  left: -200px;
+  transform: rotate(30deg);
+  top: -100px;
+  -webkit-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.about-title {
+  right: 50px;
+}
+
+.about-text-first {
+  right: 50px;
+  padding: 10px 20px;
+  margin-right: 50px;
+  top: 40%;
+  text-align: right;
+  border-right: 1px solid rgba(242, 242, 242, 0.2);
+}
+
+@media screen and (max-width: 1000px) {
+  .About .rotated-element {
+    width: 400px;
+    height: 500px;
+    transform: rotate(30deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About .rotated-element {
+    display: none;
+  }
+  .component-number {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-text-first {
+    position: absolute;
+    top: 35%;
+    left: 0px;
+    color: #afafaf;
+    font-size: 13px;
+    width: calc(100% - 20px);
+    padding: 10px 20px 0px 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+    border-left: 0px;
+    border-right: 1px solid rgba(242, 242, 242, 0.2);
+  }
+  .content-mobile-view {
+    display: block;
+  }
+  .content-desktop-view {
+    display: none;
+  }
+}
+
+.cv-container {
+  position: absolute;
+  right: 100px;
+  bottom: 10%;
+  z-index: 50;
+}
+
+.cv-container button {
+  color: #1c4566 !important;
+  background: #f2f2f2 !important;
+  margin-right: 0px !important;
+}

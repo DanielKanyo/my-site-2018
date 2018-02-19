@@ -1,4 +1,4 @@
-.rotated-element {
+.Welcome .rotated-element {
   width: 600px;
   height: 490px;
   background: #f2f2f2;
@@ -20,15 +20,18 @@
   position: absolute;
   color: #1d4466;
   top: 0;
-  right: 0;
   font-size: 50px;
   padding: 10px 30px;
   font-weight: bold;
   border-bottom: 1px solid rgba(29, 68, 102, 0.3);
 }
 
+.welcome-number {
+  right: 0;
+}
+
 @media screen and (max-width: 1000px) {
-  .rotated-element {
+  .Welcome .rotated-element {
     width: 400px;
     height: 500px;
     transform: rotate(30deg);
@@ -36,7 +39,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .rotated-element {
+  .Welcome .rotated-element {
     display: none;
   }
   .component-number {
@@ -49,21 +52,24 @@
   font-size: 20px;
   position: absolute;
   height: 100%;
-  left: 50px;
   padding: 60px 50px;
 }
 
-.welcome-welcome {
+.welcome-title {
+  left: 50px;
+}
+
+.title1 {
   margin-bottom: -15px;
 }
 
-.welcome-im-daniel {
+.title2 {
   font-size: 60px;
   font-weight: 800;
   margin-bottom: -16px;
 }
 
-.welcome-feel-free {
+.title3 {
   text-align: right;
 }
 
@@ -96,11 +102,14 @@
 
 .component-text-first {
   position: absolute;
-  top: 50%;
-  left: 50px;
   color: #afafaf;
   font-size: 13px;
   width: 40%;
+}
+
+.welcome-text-first {
+  left: 50px;
+  top: 50%;
   padding: 10px 20px;
   margin-left: 50px;
   border-left: 1px solid rgba(242, 242, 242, 0.2);
@@ -124,15 +133,15 @@
     width: 100%;
     padding: 60px 10px;
   }
-  .welcome-welcome {
+  .title1 {
     margin-bottom: -10px;
   }
-  .welcome-im-daniel {
+  .title2 {
     font-size: 60px;
     font-weight: 800;
     margin-bottom: -10px;
   }
-  .welcome-feel-free {
+  .title3 {
     text-align: center;
   }
   .component-text-first {
@@ -164,16 +173,16 @@
     left: 50px;
     padding: 60px 50px;
   }
-  .welcome-welcome {
+  .title1 {
     margin-bottom: -25px;
     font-size: 40px;
   }
-  .welcome-im-daniel {
+  .title2 {
     font-size: 100px;
     font-weight: 800;
     margin-bottom: -25px;
   }
-  .welcome-feel-free {
+  .title3 {
     text-align: center;
     font-size: 40px;
   }
@@ -191,7 +200,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .welcome-im-daniel {
+  .title2 {
     font-size: 50px;
   }
 }

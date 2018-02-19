@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import IconButton from 'material-ui/IconButton';
 import ArrowRight from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
 import ArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
-/** style */
-import './Welcome.css';
+import FlatButton from 'material-ui/FlatButton';
+
+import './About.css';
 
 const styles = {
   arrowRightIconStyle: {
-    color: '#1b578c',
+    color: '#f2f2f2',
     width: 36,
     height: 36,
   },
   arrowLeftIconStyle: {
-    color: '#f2f2f2',
+    color: '#1b578c',
     width: 36,
     height: 36,
   },
@@ -20,10 +21,13 @@ const styles = {
     width: 72,
     height: 72,
     padding: 16,
+  },
+  risedButton: {
+    margin: 12,
   }
 };
 
-class Welcome extends Component {
+class About extends Component {
 
   handleChangeIndex = (index) => {
     this.props.handleChangeIndexProp(index);
@@ -31,28 +35,27 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div className="slide slide1">
-        <div className="Component Welcome">
+      <div className="slide slide2">
+        <div className="Component About">
+
           <div className="component-content">
 
-            <div className="component-title welcome-title">
-              <div className="title1 welcome-welcome">WELCOME</div>
-              <div className="title2 welcome-im-daniel">I'M DANIEL</div>
-              <div className="title3 welcome-feel-free">FEEL FREE TO LOOK AROUND</div>
+            <div className="component-title about-title">
+              <div className="title1 about-something">SOMETHING</div>
+              <div className="title2 about-aboutme">ABOUT ME</div>
             </div>
 
-            <div className="component-text-first welcome-text-first">
-              <span>I'm a full stack web developer who loves programming, and who has a little sense of design.</span><br /><br />
-              <span className="content-desktop-view">
-                On the site, for the navigation, you can use your mouse, the left and right key on your keyboard, and the menu
-                to navigate between the pages. <br /><br />
-                Have fun!
-              </span>
-              <span className="content-mobile-view">
-                On the site, for the navigation, you can swipe between the pages, or you can use the menu bar on the left. <br /><br />
-                Have fun!
-              </span>
+            <div className="component-text-first about-text-first">
+              <span>
+                With experience in web development and design,
+                I maintain a healthy balance between functionality and visual impact in all my work. <br />
+                I believe every piece of design can be a work of art.
+                I love my work and enjoy each new project as I get it. <br />
+                Don't hesitate to contact me if you think I can be of service to you.</span>
             </div>
+            {/* <div className="cv-container">
+              <FlatButton label="Curriculum Vitae" style={styles.risedButton} />
+            </div> */}
 
             <div className="rotated-element"></div>
 
@@ -62,7 +65,7 @@ class Welcome extends Component {
                   <div className="inner">
                     <IconButton
                       iconStyle={styles.arrowLeftIconStyle}
-                      disabled={true}
+                      onClick={() => { this.handleChangeIndex(0) }}
                       style={styles.small}
                       className="arrow-icon">
                       <ArrowLeft />
@@ -72,7 +75,7 @@ class Welcome extends Component {
               </div>
             </div>
 
-            <div className="component-number welcome-number">01</div>
+            <div className="component-number">02</div>
 
             <div className="right-arrow-container">
               <div className="outer">
@@ -81,7 +84,7 @@ class Welcome extends Component {
                     <IconButton
                       iconStyle={styles.arrowRightIconStyle}
                       style={styles.small}
-                      onClick={() => { this.handleChangeIndex(1) }}
+                      onClick={() => { this.handleChangeIndex(2) }}
                       className="arrow-icon">
                       <ArrowRight />
                     </IconButton>
@@ -89,7 +92,6 @@ class Welcome extends Component {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -97,4 +99,4 @@ class Welcome extends Component {
   }
 }
 
-export default Welcome;
+export default About;
