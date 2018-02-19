@@ -67,6 +67,7 @@ class App extends Component {
       <div className="App">
         <div className="loading-element">
           <RefreshIndicator
+            className="refresh-indicator"
             size={60}
             left={-24}
             top={-24}

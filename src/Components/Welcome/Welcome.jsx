@@ -42,10 +42,16 @@ class Welcome extends Component {
             </div>
 
             <div className="component-text-first">
-              I'm a full stack web developer who loves programming, and who has a little sense of design. <br/><br/>
-              On the site, for the navigation, you can use your mouse, the left and right key on your keyboard, and the menu
-              to navigate between the pages. <br/><br/>
-              Have fun!
+              <span>I'm a full stack web developer who loves programming, and who has a little sense of design.</span><br /><br />
+              <span className="content-desktop-view">
+                On the site, for the navigation, you can use your mouse, the left and right key on your keyboard, and the menu
+                to navigate between the pages. <br /><br />
+                Have fun!
+              </span>
+              <span className="content-mobile-view">
+                On the site, for the navigation, you can swipe between the pages, or you can use the menu bar on the left. <br /><br />
+                Have fun!
+              </span>
             </div>
 
             <div className="rotated-element"></div>
