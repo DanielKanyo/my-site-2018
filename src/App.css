@@ -31,10 +31,10 @@
 
 @media screen and (max-width: 1920px) {
   .Component {
-    height: calc(100vh - 320px);
+    height: calc(100vh - 300px);
   }
   .slide {
-    padding: 160px 2 60px;
+    padding: 150px 180px;
   }
 }
 
@@ -49,10 +49,10 @@
 
 @media screen and (max-width: 1200px) {
   .Component {
-    height: calc(100vh - 160px);
+    height: calc(100vh - 140px);
   }
   .slide {
-    padding: 80px 70px;
+    padding: 70px 70px;
   }
 }
 

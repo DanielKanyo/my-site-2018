@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import IconButton from 'material-ui/IconButton';
 import ArrowRight from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
 import ArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
-import FlatButton from 'material-ui/FlatButton';
+// import FlatButton from 'material-ui/FlatButton';
 
 import './About.css';
 
