@@ -170,7 +170,6 @@
     font-size: 50px;
     position: absolute;
     height: 100%;
-    left: 50px;
     padding: 60px 50px;
   }
   .title1 {
@@ -189,13 +188,11 @@
   .component-text-first {
     position: absolute;
     top: 50%;
-    left: 50px;
     color: #afafaf;
     font-size: 24px;
     width: 70%;
     padding: 10px 20px;
     margin-left: 50px;
-    border-left: 1px solid rgba(242, 242, 242, 0.2);
   }
 }
 
