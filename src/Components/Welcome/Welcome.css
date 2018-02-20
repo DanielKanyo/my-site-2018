@@ -174,7 +174,7 @@
   }
   .title1 {
     margin-bottom: -25px;
-    font-size: 40px;
+    font-size: 36px;
   }
   .title2 {
     font-size: 100px;
@@ -182,15 +182,15 @@
     margin-bottom: -25px;
   }
   .title3 {
-    text-align: center;
-    font-size: 40px;
+    text-align: right;
+    font-size: 36px;
   }
   .component-text-first {
     position: absolute;
     top: 50%;
     color: #afafaf;
-    font-size: 24px;
-    width: 70%;
+    font-size: 20px;
+    width: 60%;
     padding: 10px 20px;
     margin-left: 50px;
   }
