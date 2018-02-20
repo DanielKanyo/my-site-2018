@@ -17,8 +17,8 @@
 }
 
 .about-title {
-  right: 50px;
   text-align: right;
+  right: 50px;
 }
 
 .about-text-first {
@@ -66,6 +66,9 @@
   }
   .content-desktop-view {
     display: none;
+  }
+  .about-title {
+    text-align: center;
   }
 }
 
