@@ -11,6 +11,8 @@ import ActionLoyalty from 'material-ui/svg-icons/action/loyalty';
 import CommunicationForum from 'material-ui/svg-icons/communication/forum';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import FontIcon from 'material-ui/FontIcon';
+import { Card, CardHeader } from 'material-ui/Card';
+import ProfileImg from '../../Images/danielkanyo5.jpg';
 /** style */
 import './Navigation.css';
 
@@ -41,7 +43,18 @@ const styles = {
     height: '45px'
   },
   closeIconStyle: {
-    color: '#505050'
+    color: '#828282'
+  },
+  cardStyle: {
+    background: 'none',
+    boxShadow: 'none',
+    height: '120px',
+    borderRadius: '0px',
+    position: 'relative'
+  },
+  cardHeaderStyle: {
+    position: 'absolute',
+    bottom: 0
   }
 };
 
@@ -80,9 +93,21 @@ class Navigation extends Component {
           open={this.props.openProp}
           onRequestChange={this.handleReqChanged}
         >
-          <IconButton iconStyle={styles.closeIconStyle} className="close-icon" onClick={this.handleToggle}>
-            <NavigationClose />
-          </IconButton>
+
+          <div className="menu-profile">
+            <IconButton iconStyle={styles.closeIconStyle} className="close-icon" onClick={this.handleToggle}>
+              <NavigationClose />
+            </IconButton>
+            <Card style={styles.cardStyle}>
+              <CardHeader
+                style={styles.cardHeaderStyle}
+                title="Daniel Kanyo"
+                subtitle="Full-stack developer"
+                avatar={ProfileImg}
+              />
+            </Card>
+          </div>
+
           <div className="menu-item-container">
             <FlatButton
               className="menu-btn"
