@@ -19,9 +19,29 @@
 }
 
 .menu-profile {
+  width: 100% auto;
+  height: 90px;
+  background: #313131;
+  
+}
+
+.menu-profile span {
+  color: #979797 !important;
+}
+
+.menu-profile span:first-of-type {
+  color: #cecece !important;
+}
+
+.menu-header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 90px;
-  background: #8a8a8a;
+  background-image: url("../../Images/grey.jpg");
+  background-size: 100%;
+  opacity: 0.4;
 }
 
 .menu-item-social .menu-btn-social span {

@@ -43,7 +43,7 @@ const styles = {
     height: '45px'
   },
   closeIconStyle: {
-    color: 'rgba(0, 0, 0, 0.54)'
+    color: 'rgba(206, 206, 206, 0.5)'
   },
   cardStyle: {
     background: 'none',
@@ -95,6 +95,7 @@ class Navigation extends Component {
         >
 
           <div className="menu-profile">
+            <div className="menu-header-background"></div>
             <IconButton iconStyle={styles.closeIconStyle} className="close-icon" onClick={this.handleToggle}>
               <NavigationClose />
             </IconButton>
