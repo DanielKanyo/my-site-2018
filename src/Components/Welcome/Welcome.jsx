@@ -38,7 +38,7 @@ class Welcome extends Component {
             <div className="component-title welcome-title">
               <div className="title1 welcome-welcome">WELCOME</div>
               <div className="title2 welcome-im-daniel">I'M DANIEL</div>
-              <div className="title3 welcome-feel-free">FEEL FREE TO LOOK AROUND</div>
+              {/* <div className="title3 welcome-feel-free">FEEL FREE TO LOOK AROUND</div> */}
             </div>
 
             <div className="component-text-first welcome-text-first">

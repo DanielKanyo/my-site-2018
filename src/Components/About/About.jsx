@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import IconButton from 'material-ui/IconButton';
 import ArrowRight from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
 import ArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
-// import FlatButton from 'material-ui/FlatButton';
+import FlatButton from 'material-ui/FlatButton';
 
 import './About.css';
 
@@ -52,10 +52,10 @@ class About extends Component {
                 I believe every piece of design can be a work of art.
                 I love my work and enjoy each new project as I get it. <br />
                 Don't hesitate to contact me if you think I can be of service to you.</span>
+                <div className="cv-container">
+                  <FlatButton tooltip="Notifications">Curriculum Vitae</FlatButton>
+                </div>
             </div>
-            {/* <div className="cv-container">
-              <FlatButton label="Curriculum Vitae" style={styles.risedButton} />
-            </div> */}
 
             <div className="rotated-element"></div>
 
