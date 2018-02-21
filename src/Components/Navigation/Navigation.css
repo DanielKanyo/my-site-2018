@@ -22,7 +22,6 @@
   width: 100% auto;
   height: 90px;
   background: #313131;
-  
 }
 
 .menu-profile span {
@@ -42,6 +41,10 @@
   background-image: url("../../Images/grey.jpg");
   background-size: 100%;
   opacity: 0.4;
+}
+
+.menu-header-background img {
+  background: none !important;
 }
 
 .menu-item-social .menu-btn-social span {
