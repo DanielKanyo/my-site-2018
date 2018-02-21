@@ -43,12 +43,12 @@ const styles = {
     height: '45px'
   },
   closeIconStyle: {
-    color: '#828282'
+    color: 'rgba(0, 0, 0, 0.54)'
   },
   cardStyle: {
     background: 'none',
     boxShadow: 'none',
-    height: '120px',
+    height: '90px',
     borderRadius: '0px',
     position: 'relative'
   },
