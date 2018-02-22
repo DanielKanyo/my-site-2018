@@ -55,7 +55,7 @@
     color: #afafaf;
     font-size: 13px;
     width: calc(100% - 20px);
-    padding: 10px 20px 0px 20px;
+    padding: 10px 20px;
     margin-right: 20px;
     margin-left: 0px;
     border-left: 0px;
@@ -70,7 +70,7 @@
   .about-title {
     text-align: center;
   }
-  .cv-container button {
+  .cv-container a {
     width: 100% !important;
   }
 }
@@ -79,7 +79,7 @@
   margin-top: 20px;
 }
 
-.cv-container button {
+.cv-container a {
   z-index: 50 !important;
   font-family: 'Fira Sans', sans-serif !important;
   color: #f2f2f2 !important;
@@ -91,6 +91,6 @@
   border-radius: 0px !important;
 }
 
-.cv-container button span {
+.cv-container a span {
   font-weight: normal !important;
 }

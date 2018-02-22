@@ -48,13 +48,13 @@ class About extends Component {
             <div className="component-text-first about-text-first">
               <span>
                 With experience in web development and design,
-                I maintain a healthy balance between functionality and visual impact in all my work. <br/> <br/>
+                I maintain a healthy balance between functionality and visual impact in all my work. <br /> <br />
                 I believe every piece of design can be a work of art.
                 I love my work and enjoy each new project as I get it.
                 Don't hesitate to contact me if you think I can be of service to you.</span>
-                <div className="cv-container">
-                  <FlatButton tooltip="Notifications">Curriculum Vitae</FlatButton>
-                </div>
+              <div className="cv-container">
+                <FlatButton target="_blank" href="https://www.dropbox.com/s/0aypgialal884xb/cv.pdf?dl=0">Curriculum Vitae</FlatButton>
+              </div>
             </div>
 
             <div className="rotated-element"></div>
