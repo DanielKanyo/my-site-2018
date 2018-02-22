@@ -37,14 +37,11 @@ class About extends Component {
     return (
       <div className="slide slide2">
         <div className="Component About">
-
           <div className="component-content">
-
             <div className="component-title about-title">
               <div className="title1 about-something">SOMETHING</div>
               <div className="title2 about-aboutme">ABOUT ME</div>
             </div>
-
             <div className="component-text-first about-text-first">
               <span>
                 With experience in web development and design,
@@ -56,9 +53,7 @@ class About extends Component {
                 <FlatButton target="_blank" href="https://www.dropbox.com/s/0aypgialal884xb/cv.pdf?dl=0">Curriculum Vitae</FlatButton>
               </div>
             </div>
-
             <div className="rotated-element"></div>
-
             <div className="left-arrow-container">
               <div className="outer">
                 <div className="middle">
@@ -74,9 +69,7 @@ class About extends Component {
                 </div>
               </div>
             </div>
-
             <div className="component-number">02</div>
-
             <div className="right-arrow-container">
               <div className="outer">
                 <div className="middle">

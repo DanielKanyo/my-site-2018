@@ -34,13 +34,11 @@ class Welcome extends Component {
       <div className="slide slide1">
         <div className="Component Welcome">
           <div className="component-content">
-
             <div className="component-title welcome-title">
               <div className="title1 welcome-welcome">WELCOME</div>
               <div className="title2 welcome-im-daniel">I'M DANIEL</div>
               {/* <div className="title3 welcome-feel-free">FEEL FREE TO LOOK AROUND</div> */}
             </div>
-
             <div className="component-text-first welcome-text-first">
               <span>I'm a full stack web developer who loves programming, and who has a little sense of design.</span><br /><br />
               <span className="content-desktop-view">
@@ -53,9 +51,7 @@ class Welcome extends Component {
                 Have fun!
               </span>
             </div>
-
             <div className="rotated-element"></div>
-
             <div className="left-arrow-container">
               <div className="outer">
                 <div className="middle">
@@ -71,9 +67,7 @@ class Welcome extends Component {
                 </div>
               </div>
             </div>
-
             <div className="component-number welcome-number">01</div>
-
             <div className="right-arrow-container">
               <div className="outer">
                 <div className="middle">
@@ -89,7 +83,6 @@ class Welcome extends Component {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
