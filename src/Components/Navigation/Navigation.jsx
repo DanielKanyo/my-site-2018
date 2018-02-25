@@ -7,7 +7,6 @@ import FlatButton from 'material-ui/FlatButton';
 import ActionHome from 'material-ui/svg-icons/action/home';
 import SocialPerson from 'material-ui/svg-icons/social/person';
 import ToggleStar from 'material-ui/svg-icons/toggle/star';
-import ActionLoyalty from 'material-ui/svg-icons/action/loyalty';
 import CommunicationForum from 'material-ui/svg-icons/communication/forum';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 import FontIcon from 'material-ui/FontIcon';
@@ -142,15 +141,6 @@ class Navigation extends Component {
               fullWidth={true}
               style={styles.flatButtonStyle}
               onClick={() => { this.handleClose(); this.handleChangeIndex(3) }}
-              label="Opinions"
-              secondary={true}
-              icon={<ActionLoyalty style={styles.menuIconStyle} />}
-            />
-            <FlatButton
-              className="menu-btn"
-              fullWidth={true}
-              style={styles.flatButtonStyle}
-              onClick={() => { this.handleClose(); this.handleChangeIndex(4) }}
               label="Contact"
               secondary={true}
               icon={<CommunicationForum style={styles.menuIconStyle} />}

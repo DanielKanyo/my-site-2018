@@ -1,0 +1,109 @@
+.Skills .rotated-element {
+  width: 500px;
+  height: 490px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: -webkit-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: linear-gradient(135deg, #f2f2f2 0%, #dbdbdb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb', GradientType=1);
+  position: absolute;
+  right: -200px;
+  transform: rotate(10deg);
+  top: 100px;
+  -webkit-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.Skills .component-number {
+  right: 0;
+  border-top: 1px solid rgba(29, 68, 102, 0.3);
+  bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .Skills .rotated-element {
+    width: 400px;
+    height: 500px;
+    transform: rotate(10deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Skills .rotated-element {
+    display: none;
+  }
+  .component-number {
+    display: none;
+  }
+}
+
+.skills-title {
+  text-align: right;
+  left: 50px;
+}
+
+.skills-someofmy {
+  text-align: left;
+}
+
+.skills-text-first {
+  left: 50px;
+  padding: 10px 10px 10px 20px;
+  margin-left: 50px;
+  top: 38%;
+  text-align: left;
+  border-left: 1px solid rgba(242, 242, 242, 0.2);
+  width: 55%;
+}
+
+.chip-container {
+  z-index: 150;
+  position: relative;
+}
+
+.chip-element {
+  padding-right: 5px !important;
+  background: rgba(1, 1, 1, 0.2) !important;
+}
+
+.chip-element span:first-of-type {
+  color: #f2f2f2 !important;
+}
+
+.chip-element div:first-of-type {
+  background: rgba(1, 1, 1, 0.2) !important;
+}
+
+@media screen and (max-width: 800px) {
+  .skills-text-first {
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    color: #afafaf;
+    font-size: 13px;
+    width: calc(100% - 20px);
+    padding: 10px 10px 10px 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    border-right: 0px;
+    border-left: 1px solid rgba(242, 242, 242, 0.2);
+  }
+  .content-mobile-view {
+    display: block;
+  }
+  .content-desktop-view {
+    display: none;
+  }
+  .skills-title {
+    text-align: center;
+    left: 0px;
+  }
+  .skills-someofmy {
+    text-align: center;
+  }
+  .cv-container a {
+    width: 100% !important;
+  }
+}

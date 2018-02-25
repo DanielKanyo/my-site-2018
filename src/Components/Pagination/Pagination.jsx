@@ -38,12 +38,6 @@ class Pagination extends Component {
           secondary={true}
           icon={<FontIcon className={index === 3 ? "fa fa-square" : "fa fa-square-o"} />}
         />
-        <FlatButton
-          onClick={() => { this.handleChangeIndex(4) }}
-          className="pagination-btn fifth"
-          secondary={true}
-          icon={<FontIcon className={index === 4 ? "fa fa-square" : "fa fa-square-o"} />}
-        />
       </div>
     );
   }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import SupportTouch from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import RefreshIndicator from 'material-ui/RefreshIndicator';
 /** style */
 import './App.css';
 /** components */
@@ -13,15 +12,6 @@ import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
-
-const style = {
-  refresh: {
-    background: 'none',
-    boxShadow: 'none',
-    marginLeft: '50vw',
-    marginTop: '50vh'
-  }
-};
 
 class App extends Component {
 
@@ -35,13 +25,6 @@ class App extends Component {
     this.handleChangeIndex = this.handleChangeIndex.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
     this.handleClose = this.handleClose.bind(this);
-  }
-
-  componentDidMount() {
-    let loadingElement = document.getElementsByClassName("loading-element")[0];
-    setTimeout(() => {
-      loadingElement.remove();
-    }, 2000);
   }
 
   handleChange = (value, event) => {
@@ -67,17 +50,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="loading-element">
-          <RefreshIndicator
-            className="refresh-indicator"
-            size={60}
-            left={-24}
-            top={-24}
-            loadingColor="#f2f2f2"
-            status="loading"
-            style={style.refresh}
-          />
-        </div>
 
         <Navigation
           handleChangeProp={this.handleChange.bind(this)}
@@ -101,8 +73,7 @@ class App extends Component {
               handleChangeIndexProp={this.handleChangeIndex.bind(this)}
               indexProp={this.state.index}
             />
-            <div className="slide slide4">Opinions</div>
-            <div className="slide slide5">Contact</div>
+            <div className="slide slide4">Contact</div>
           </BindKeyboardSwipeableViews>
         </SupportTouch>
 

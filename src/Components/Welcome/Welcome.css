@@ -19,15 +19,14 @@
 .component-number {
   position: absolute;
   color: #1d4466;
-  top: 0;
   font-size: 50px;
   padding: 10px 30px;
   font-weight: bold;
-  border-bottom: 1px solid rgba(29, 68, 102, 0.3);
 }
 
 .welcome-number {
   right: 0;
+  border-bottom: 1px solid rgba(29, 68, 102, 0.3);
 }
 
 @media screen and (max-width: 1000px) {
@@ -67,10 +66,6 @@
   font-size: 60px;
   font-weight: 800;
   margin-bottom: -16px;
-}
-
-.title3 {
-  text-align: right;
 }
 
 .right-arrow-container .outer {
@@ -129,7 +124,7 @@
     font-size: 15px;
     text-align: center;
     height: 100%;
-    left: 0;
+    left: 0px;
     width: 100%;
     padding: 60px 10px;
   }
@@ -153,7 +148,6 @@
     width: calc(100% - 20px);
     padding: 10px 20px;
     margin-left: 20px;
-    border-left: 0px;
     border-left: 1px solid rgba(242, 242, 242, 0.2);
   }
   .content-mobile-view {
