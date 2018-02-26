@@ -51,31 +51,34 @@ class Skills extends Component {
             <div className="component-text-first skills-text-first">
               <div className="chip-container" style={styles.wrapper}>
                 <Chip style={styles.chip} className="chip-element">
-                  <Avatar size={32}>J</Avatar>JavaScript
-                </Chip>
-                <Chip style={styles.chip} className="chip-element">
-                  <Avatar size={32}>R</Avatar>React
-                </Chip>
-                <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>H</Avatar>HTML5
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>C</Avatar>CSS3
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
+                  <Avatar size={32}>J</Avatar>JavaScript
+                </Chip>
+                <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>J </Avatar>JQuery
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
-                  <Avatar size={32}>G</Avatar>Git
+                  <Avatar size={32}>R</Avatar>React
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>J</Avatar>Java
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
-                  <Avatar size={32}>M</Avatar>MongoDB
+                  <Avatar size={32}>N</Avatar>NodeJS
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>B</Avatar>Bootstrap
+                </Chip>
+                <Chip style={styles.chip} className="chip-element">
+                  <Avatar size={32}>G</Avatar>Git
+                </Chip>
+                <Chip style={styles.chip} className="chip-element">
+                  <Avatar size={32}>M</Avatar>MongoDB
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>R</Avatar>React Native
