@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
 import IconButton from 'material-ui/IconButton';
 import ArrowRight from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
-import ArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
 /** style */
 import './Welcome.css';
 
 const styles = {
   arrowRightIconStyle: {
     color: '#1b578c',
-    width: 36,
-    height: 36,
-  },
-  arrowLeftIconStyle: {
-    color: '#f2f2f2',
     width: 36,
     height: 36,
   },
@@ -50,23 +44,11 @@ class Welcome extends Component {
                 Have fun!
               </span>
             </div>
+
             <div className="rotated-element"></div>
-            <div className="left-arrow-container">
-              <div className="outer">
-                <div className="middle">
-                  <div className="inner">
-                    <IconButton
-                      iconStyle={styles.arrowLeftIconStyle}
-                      disabled={true}
-                      style={styles.small}
-                      className="arrow-icon">
-                      <ArrowLeft />
-                    </IconButton>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div className="component-number welcome-number">01</div>
+
             <div className="right-arrow-container">
               <div className="outer">
                 <div className="middle">
@@ -82,6 +64,7 @@ class Welcome extends Component {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
