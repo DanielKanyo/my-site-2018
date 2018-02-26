@@ -1,6 +1,55 @@
+.Contact .rotated-element {
+  width: 500px;
+  height: 490px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: -webkit-linear-gradient(-45deg, #f2f2f2 0%, #dbdbdb 100%);
+  background: linear-gradient(135deg, #f2f2f2 0%, #dbdbdb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb', GradientType=1);
+  position: absolute;
+  left: -250px;
+  transform: rotate(-50deg);
+  top: 50px;
+  -webkit-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 109px -23px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
 .contact-title {
   text-align: right;
   right: 50px;
+}
+
+.Contact .component-number {
+  left: 0;
+  border-top: 1px solid rgba(29, 68, 102, 0.3);
+  bottom: 0;
+}
+
+.contact-text-first {
+  right: 50px;
+  padding: 10px 20px;
+  margin-right: 50px;
+  top: 38%;
+  text-align: right;
+  border-right: 1px solid rgba(242, 242, 242, 0.2);
+}
+
+@media screen and (max-width: 1000px) {
+  .Contact .rotated-element {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Contact .rotated-element {
+    display: none;
+  }
+  .component-number {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -12,10 +61,10 @@
     font-size: 13px;
     width: calc(100% - 20px);
     padding: 10px 10px 10px 10px;
-    margin-left: 20px;
-    margin-right: 0px;
-    border-right: 0px;
-    border-left: 1px solid rgba(242, 242, 242, 0.2);
+    margin-right: 20px;
+    margin-left: 0px;
+    border-left: 0px;
+    border-right: 1px solid rgba(242, 242, 242, 0.2);
   }
   .content-mobile-view {
     display: block;

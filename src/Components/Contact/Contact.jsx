@@ -6,7 +6,7 @@ import './Contact.css';
 
 const styles = {
   arrowLeftIconStyle: {
-    color: '#f2f2f2',
+    color: '#1b578c',
     width: 36,
     height: 36,
   },
@@ -19,8 +19,10 @@ const styles = {
 
 class Contact extends Component {
 
-  handleChangeIndex = (index) => {
-    this.props.handleChangeIndexProp(index);
+  copyToClipboard = (classname) => {
+    let copyText = document.getElementsByClassName(classname)[0];
+    copyText.select();
+    document.execCommand("Copy");
   };
 
   render() {
@@ -31,6 +33,14 @@ class Contact extends Component {
             <div className="component-title contact-title">
               <div className="title1 contact-please">PLEASE</div>
               <div className="title2 contact-contactme">CONTACT ME</div>
+            </div>
+
+            <div className="component-text-first contact-text-first">
+              <input type="text" value="danielkanyo992@gmail.com" className="email" readOnly />
+              <button onClick={() => { this.copyToClipboard('email') }} className="clip-board">CP</button> <br /><br />
+              Szeged 6723 / Taban street 38 - 4th floor 11th door <br /><br />
+              <input type="text" value="+36 30 7792953" className="cellnumber" readOnly />
+              <button onClick={() => { this.copyToClipboard('cellnumber') }} className="clip-board">CP</button>
             </div>
 
             <div className="rotated-element"></div>
@@ -51,7 +61,9 @@ class Contact extends Component {
               </div>
             </div>
 
-            {/* <div className="component-number">04</div> */}
+            <div className="rotated-element"></div>
+
+            <div className="component-number">04</div>
 
           </div>
         </div>

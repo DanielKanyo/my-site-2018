@@ -73,6 +73,7 @@
   position: absolute;
   height: 100%;
   width: auto;
+  z-index: 200;
   right: 0;
 }
 
@@ -93,6 +94,7 @@
   height: 100%;
   width: auto;
   left: 0;
+  z-index: 200;
 }
 
 .component-text-first {
