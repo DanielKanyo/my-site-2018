@@ -1,0 +1,33 @@
+.contact-title {
+  text-align: right;
+  right: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-text-first {
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    color: #afafaf;
+    font-size: 13px;
+    width: calc(100% - 20px);
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin-right: 0px;
+    border-right: 0px;
+    border-left: 1px solid rgba(242, 242, 242, 0.2);
+  }
+  .content-mobile-view {
+    display: block;
+  }
+  .content-desktop-view {
+    display: none;
+  }
+  .contact-title {
+    text-align: center;
+    right: 0px;
+  }
+  .contact-someofmy {
+    text-align: center;
+  }
+}

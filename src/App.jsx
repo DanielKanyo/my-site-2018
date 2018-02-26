@@ -10,6 +10,7 @@ import Navigation from './Components/Navigation/Navigation';
 import Pagination from './Components/Pagination/Pagination';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
+import Contact from './Components/Contact/Contact';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -73,7 +74,10 @@ class App extends Component {
               handleChangeIndexProp={this.handleChangeIndex.bind(this)}
               indexProp={this.state.index}
             />
-            <div className="slide slide4">Contact</div>
+            <Contact
+              handleChangeIndexProp={this.handleChangeIndex.bind(this)}
+              indexProp={this.state.index}
+            />
           </BindKeyboardSwipeableViews>
         </SupportTouch>
 
