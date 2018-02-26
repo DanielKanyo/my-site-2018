@@ -50,7 +50,7 @@
 
 .skills-text-first {
   left: 50px;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
   margin-left: 50px;
   top: 38%;
   text-align: left;
@@ -84,7 +84,7 @@
     color: #afafaf;
     font-size: 13px;
     width: calc(100% - 20px);
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 10px;
     margin-left: 20px;
     margin-right: 0px;
     border-right: 0px;

@@ -60,9 +60,6 @@ class Skills extends Component {
                   <Avatar size={32}>J</Avatar>JavaScript
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
-                  <Avatar size={32}>J </Avatar>JQuery
-                </Chip>
-                <Chip style={styles.chip} className="chip-element">
                   <Avatar size={32}>R</Avatar>React
                 </Chip>
                 <Chip style={styles.chip} className="chip-element">
