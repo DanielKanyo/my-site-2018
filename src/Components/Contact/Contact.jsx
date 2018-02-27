@@ -27,6 +27,10 @@ class Contact extends Component {
     document.execCommand("Copy");
   };
 
+  handleChangeIndex = (index) => {
+    this.props.handleChangeIndexProp(index);
+  };
+
   render() {
     return (
       <div className="slide slide4">
