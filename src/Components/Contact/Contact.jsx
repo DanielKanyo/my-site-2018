@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import IconButton from 'material-ui/IconButton';
 import ArrowLeft from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
+import Copy from 'material-ui/svg-icons/content/content-copy';
+import Place from 'material-ui/svg-icons/maps/my-location';
 
 import './Contact.css';
 
@@ -36,11 +38,31 @@ class Contact extends Component {
             </div>
 
             <div className="component-text-first contact-text-first">
-              <input type="text" value="danielkanyo992@gmail.com" className="email" readOnly />
-              <button onClick={() => { this.copyToClipboard('email') }} className="clip-board">CP</button> <br /><br />
-              Szeged 6723 / Taban street 38 - 4th floor 11th door <br /><br />
-              <input type="text" value="+36 30 7792953" className="cellnumber" readOnly />
-              <button onClick={() => { this.copyToClipboard('cellnumber') }} className="clip-board">CP</button>
+              <div>
+                <input type="text" value="danielkanyo992@gmail.com" className="email" readOnly />
+
+                <IconButton
+                  onClick={() => { this.copyToClipboard('email') }}>
+                  <Copy />
+                </IconButton>
+              </div>
+
+              <div>
+                <input type="text" value="Szeged 6723 / Taban street 38" className="place" readOnly />
+                <IconButton>
+                  <Place />
+                </IconButton>
+              </div>
+
+              <div>
+                <input type="text" value="+36 30 7792953" className="cellnumber" readOnly />
+
+                <IconButton
+                  onClick={() => { this.copyToClipboard('cellnumber') }}>
+                  <Copy />
+                </IconButton>
+              </div>
+
             </div>
 
             <div className="rotated-element"></div>
