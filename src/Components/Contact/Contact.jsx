@@ -49,7 +49,10 @@ class Contact extends Component {
 
               <div>
                 <input type="text" value="Szeged 6723 / Taban street 38" className="place" readOnly />
-                <IconButton>
+                <IconButton 
+                  href="https://www.google.rs/maps/place/46%C2%B015'45.4%22N+20%C2%B009'52.5%22E/@46.262617,20.1639283,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d46.262617!4d20.164579?hl=hu"
+                  target="_blank"
+                >
                   <Place />
                 </IconButton>
               </div>

@@ -36,6 +36,15 @@
   border-right: 1px solid rgba(242, 242, 242, 0.2);
 }
 
+@media screen and (min-width: 1620px) {
+  .Contact .rotated-element {
+    width: 600px;
+    height: 900px;
+    transform: rotate(30deg);
+    right: -300px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .Contact .rotated-element {
     width: 400px;
@@ -81,10 +90,14 @@
   }
 }
 
+.contact-text-first {
+  width: 70%;
+}
+
 .contact-text-first input {
   background: none;
   border: none;
-  min-width: 200px;
+  min-width: 300px;
   text-align: right;
   padding: 10px;
 }
@@ -98,6 +111,20 @@
 }
 
 .contact-text-first button svg {
+  color: #f2f2f2 !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.contact-text-first a {
+  width: 38px !important;
+  height: 38px !important;
+  color: #f2f2f2 !important;
+  text-align: center;
+  padding: 8px 0px 0px 0px !important;
+}
+
+.contact-text-first a svg {
   color: #f2f2f2 !important;
   width: 20px !important;
   height: 20px !important;

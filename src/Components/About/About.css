@@ -34,6 +34,15 @@
   border-bottom: 1px solid rgba(29, 68, 102, 0.3);
 }
 
+@media screen and (min-width: 1620px) {
+  .About .rotated-element {
+    width: 600px;
+    height: 900px;
+    transform: rotate(30deg);
+    left: -300px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .About .rotated-element {
     width: 400px;

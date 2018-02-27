@@ -22,6 +22,15 @@
   bottom: 0;
 }
 
+@media screen and (min-width: 1620px) {
+  .Skills .rotated-element {
+    width: 600px;
+    height: 900px;
+    transform: rotate(30deg);
+    right: -300px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .Skills .rotated-element {
     width: 400px;
