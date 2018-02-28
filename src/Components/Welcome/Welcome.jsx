@@ -33,7 +33,7 @@ class Welcome extends Component {
               <div className="title2 welcome-im-daniel">I'M DANIEL</div>
             </div>
             <div className="component-text-first welcome-text-first">
-              <span>I'm a full stack web developer who loves programming, and who has a little sense of design.</span><br /><br />
+              <span>I'm a full-stack web developer, whose the programming is a kind of art.</span><br /><br />
               <span className="content-desktop-view">
                 On the site, for the navigation, you can use your mouse, the left and right key on your keyboard, and the menu
                 to navigate between the pages. <br /><br />
