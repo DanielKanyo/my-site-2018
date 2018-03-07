@@ -155,7 +155,7 @@
     position: absolute;
     top: 30%;
     left: 0px;
-    color: #afafaf;
+    color: #dedede;
     font-size: 13px;
     width: calc(100% - 20px);
     padding: 10px 20px;
@@ -193,8 +193,8 @@
   }
   .component-text-first {
     position: absolute;
-    top: 50%;
-    color: #afafaf;
+    top: 38%;
+    color: #dedede;
     font-size: 20px;
     width: 60%;
     padding: 10px 20px;
